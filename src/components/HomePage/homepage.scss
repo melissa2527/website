@@ -1,0 +1,65 @@
+.homepage-container {
+    height: 92vh;
+    width: 100vw;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url('./background.jpg');
+    // background-image: url('./background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1, h2 {
+        text-shadow: 5px 5px #232323;
+        padding-right: 5rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    h1 {
+        font-size: 5rem;
+        color: whitesmoke;
+        padding-top: 15rem;
+        box-shadow: 2px 2px #54BE90;
+    }
+
+    h2 {
+        color: #54BE90;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .hero-btns {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2rem;
+        padding-right: 5rem;
+
+        #hero-btn {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        #hero-btn:hover {
+            color: #232323;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .homepage-container h1, h2 {
+            display: flex;
+            justify-content: flex-start;
+        }
+        h1 {
+            padding-top: 11rem;
+            font-size: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .hero-btns {
+            justify-content: flex-start;
+        }
+    }
+}

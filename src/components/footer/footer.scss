@@ -1,0 +1,46 @@
+.footer-container {
+    background: #232323;
+    color: whitesmoke;
+    min-height: 30vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h3 {
+        font-size: 120%;
+    }
+
+    h6 {
+        font-size: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-items {
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+        margin: 0 auto;
+        
+        .item {
+            color: whitesmoke;
+            font-size: 2.75rem;
+            transition: .2s ease-in-out;
+        }
+
+        .item:hover {
+            color: #54BE90;
+            transition: .2s ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .footer-items {
+        max-width: 100vw;
+        justify-content: center;
+        
+    }
+}

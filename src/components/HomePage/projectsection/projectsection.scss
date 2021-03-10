@@ -1,0 +1,117 @@
+.project-container {
+    min-height: 80vh;
+
+    .project--section {
+        display: flex;
+        position: relative;
+        // position: absolute;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 28rem;
+            margin-top: 0.5rem;
+        }
+    }
+    .project--section-btns {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            font-size: 130%;
+            margin-top: 0.5rem;
+            color: #232323;
+        }
+    }
+
+    .right-arrow {
+        font-size: 3rem;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 50px;
+        border: none;
+        color: #232323;  
+    }
+    .right-arrow:hover, .left-arrow:hover {
+        color: whitesmoke;
+        background-color: #54BE90;
+    }
+
+    .right-arrow:focus, .left-arrow:focus {
+        outline: 0;
+    }
+
+    .right-arrow:active, .left-arrow:active {
+        color: #232323;
+    }
+
+    .left-arrow {
+        font-size: 3rem;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 50px;
+        border: none;
+        color: #232323;
+    }
+    
+    h2 {
+        margin: 3.2rem;
+        text-align: center;
+        font-size: 2.2rem;
+        text-decoration: 5px underline dotted #54BE90;
+    }
+}
+
+.slide {
+    opacity: 0.5;
+    z-index: 999;
+}
+
+.slide-active {
+    z-index: 999;
+    opacity: 1;
+    position: absolute;
+    margin-top: 8.4rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition-timing-function: ease-in-out;
+    
+    .title {
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+.project-info {
+    text-align: center;
+    margin-top: -1rem;
+    padding: 1.2rem;
+    background-color: #54BE90;
+    font-size: 120%;
+    margin-bottom: 0.5rem;
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-shadow: 1px 1px #232323;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .laptop, .title {
+        visibility: hidden;
+    }
+
+    .image {
+        width: 23rem;
+    }
+    .right-arrow, .left-arrow {
+        margin-top: 2rem;
+    }
+}

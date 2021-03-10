@@ -1,0 +1,51 @@
+.techstack-container {
+    width: 100vw;
+
+    h2 {
+        margin: 3.75rem;
+        text-align: center;
+        font-size: 2.2rem;
+        text-decoration: 5px underline dotted #54BE90;
+    }
+}
+
+.techstack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #232323;
+    padding: 0 2.3rem;
+
+    .circle {
+        height: 10rem;
+
+        .semi-circle {
+            background-color: #54BE90;
+            height: 125px;
+            width: 250px;
+            border-radius: 0 0 125px 125px;
+        }
+    }
+
+    .tech-section {
+        margin: 0 auto;
+        text-align: center;
+
+        h4 {
+            color: #54BE90;
+            font-size: 120%;
+            padding-bottom: 0.4rem;
+        }
+
+        li {
+            color: whitesmoke;
+            list-style-type: none;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .techstack {
+        display: flex;
+        flex-direction: column;
+    }
+}

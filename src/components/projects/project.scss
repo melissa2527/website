@@ -1,0 +1,118 @@
+.card {
+    width: 23rem;
+    height: 23rem;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 8px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 8px 20px rgba(9, 34, 22, 0.27));
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    margin: 1.5rem;
+    background: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .img-container {
+        width: 23rem;
+        height: 12rem;
+        overflow: hidden;
+        
+    }
+    .card-img {
+        width: 23rem;
+        height: 12rem;
+    }
+    .card-img:hover {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+
+    h4 {
+        margin: 0.25rem;
+        font-size: 1.30rem;
+        color: #54BE90;
+    }
+
+    .card-info--links {
+        p {
+            margin: 0.3rem 0;
+            color: #54BE90;
+        }
+        #site, #code {
+            font-size: 2rem;
+            color: #232323;
+            position: relative;
+        }
+
+        #site:hover, #code:hover {
+            opacity: 0.9;
+            transform: scale(1.2);
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        margin: 3.75rem;
+        text-align: center;
+        font-size: 2.2rem;
+        text-decoration: 5px underline dotted #54BE90;
+    }
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    margin: 1em 6em 3rem 6em;
+}   
+
+.project-info {
+    text-align: center;
+    margin-top: -2rem;
+    padding: 1.2rem;
+    background-color: #54BE90;
+    font-size: 120%;
+    margin-bottom: 0.5rem;
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-shadow: 1px 1px #232323;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .card-container {
+        margin: 0.3rem;
+    }
+
+    .card {
+        margin: 1.5rem auto;
+        min-height: 100%;
+
+        .card-img {
+            height: 10rem;
+            width: 100%;
+        }
+
+        .card-info--links {
+            padding-bottom: 1rem;
+            }
+    }
+}
