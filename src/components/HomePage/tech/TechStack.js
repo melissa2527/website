@@ -12,7 +12,7 @@ export const TechStack = () => {
 
     return (
         <div className='techstack-container'>
-            <h2>Tech Stack</h2>
+            <h2 data-aos='fade-up'>Tech Stack</h2>
             <div className='techstack'>
                 {techStackData.map((tech, index) => {
                     return (

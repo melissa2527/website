@@ -27,8 +27,8 @@ export const Contact = () => {
 
   return (
         <div className='contact-container'>
-          <h2>Contact</h2>
-          <p data-aos='fade-down' className='project-info'>Send me an email via this contact form.</p>
+          <h2 data-aos='fade-up'>Contact</h2>
+          <p data-aos='fade-up' className='project-info'>Send me an email via this contact form.</p>
         <form onSubmit={sendEmail}>
             <div className='form'>
                 <div className='form-group'>
