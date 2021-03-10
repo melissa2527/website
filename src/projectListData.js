@@ -17,7 +17,7 @@ export const projectListData = [
         title: 'Portfolio Website',
         image: './img/portfolio.jpg',
         tech: 'React, EmailJS, AOS, SCSS',
-        site: 'https://genger-portfolio.netlify.app/',
+        site: 'https://melissagenger.com/',
         code: 'https://github.com/melissa2527/cooksmart-test'
     },
     {

@@ -64,11 +64,12 @@
 
 .slide {
     opacity: 0.5;
-    z-index: 999;
+    z-index: 10;
 }
 
 .slide-active {
-    z-index: 999;
+    z-index: 10;
+    // z-index: 999;
     opacity: 1;
     position: absolute;
     margin-top: 8.4rem;

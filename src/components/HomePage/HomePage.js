@@ -10,10 +10,10 @@ export const HomePage = () => {
     return (
         <div style={{'overflowX': 'hidden'}}>
             <Hero />
-            <AboutSection/>
-            <TechStack />
-            <Contact/>
             <ProjectSection />
+            <TechStack />
+            <AboutSection/>
+            <Contact/>
         </div>
     )
 }
