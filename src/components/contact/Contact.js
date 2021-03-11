@@ -3,7 +3,9 @@ import './contact.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
-import {GMAIL, TEMPLATE, USERS} from '../../config';
+require('dotenv').config();
+
+// import {GMAIL, TEMPLATE, USERS} from '../../config';
 
 export const Contact = () => {
     const [successMsg, setSuccessMsg] = useState(false);
@@ -11,7 +13,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(GMAIL, TEMPLATE, e.target, USERS)
+    emailjs.sendForm(process.env.GMAIL, process.env.TEMPLATE, e.target, process.env.USERS)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
