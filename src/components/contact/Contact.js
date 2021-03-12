@@ -31,30 +31,30 @@ export const Contact = () => {
         <div className='contact-container'>
           <h2 data-aos='fade-up'>Contact</h2>
           <p data-aos='fade-up' className='project-info'>Send me an email via this contact form.</p>
-        <form onSubmit={sendEmail}>
-            <div className='form'>
-                <div className='form-group'>
-                    <input type='text' className='form-control' placeholder='Your Name' name='name' required min={3}/>
-                </div>
+            <form onSubmit={sendEmail}>
+                <div className='form'>
+                    <div className='form-group'>
+                        <input type='text' className='form-control' placeholder='Your Name' name='name' required min={3}/>
+                    </div>
 
-                <div className='form-group'>
-                    <input type='email' className='form-control' placeholder='Your Email (for response)' name='email'/>
-                </div>
-                
-                <div className='form-group'>
-                    <input type='text' className='form-control' placeholder='Subject' name='subject' required min={3}/>
-                </div>
+                    <div className='form-group'>
+                        <input type='email' className='form-control' placeholder='Your Email (optional for response)' name='email'/>
+                    </div>
+                    
+                    <div className='form-group'>
+                        <input type='text' className='form-control' placeholder='Subject' name='subject' required min={3}/>
+                    </div>
 
-                <div className='form-group'>
-                    <textarea className='form-control' cols='30' rows='8' placeholder='Message' name='message'required/>
-                </div>
+                    <div className='form-group'>
+                        <textarea className='form-control' cols='30' rows='8' placeholder='Your Message' name='message'required/>
+                    </div>
 
-                <div className='form-control' id='contact-btn'>
-                    <input type='Submit' className='button' value='Send message'/>
+                    <div className='form-control' id='contact-btn'>
+                        <input type='Submit' className='button' value='Send message'/>
+                    </div>
                 </div>
-            </div>
-        </form>
-        {successMsg ? <div className='success-msg'>Your message has been sent</div> : null }
+            </form>
+            {successMsg ? <div className='success-msg'>Your message has been sent</div> : null }
         </div>
   );
 }
