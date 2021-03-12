@@ -38,15 +38,16 @@ export const Contact = () => {
                     </div>
 
                     <div className='form-group'>
-                        <input type='email' className='form-control' placeholder='Your Email (optional for response)' name='email'/>
-                    </div>
-                    
-                    <div className='form-group'>
                         <input type='text' className='form-control' placeholder='Subject' name='subject' required min={3}/>
                     </div>
 
                     <div className='form-group'>
                         <textarea className='form-control' cols='30' rows='8' placeholder='Your Message' name='message'required/>
+                    </div>
+
+                    <div className='form-group'>
+                        <label for='email'>Email (optional for response)</label>
+                        <input type='email' className='form-control' placeholder='Your Email' name='email'/>
                     </div>
 
                     <div className='form-control' id='contact-btn'>
