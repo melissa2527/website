@@ -14,6 +14,13 @@ export const projectListData = [
         code: 'https://github.com/melissa2527/cooksmart-test'
     },
     {
+        title: 'Genger Travel Services',
+        image: './img/genger-travel.jpg',
+        tech: 'React, AOS, SCSS',
+        site: 'https://genger-travel-site.netlify.app/',
+        code: 'https://github.com/melissa2527/genger-travel-services-website'
+    },
+    {
         title: 'Portfolio Website',
         image: './img/portfolio.jpg',
         tech: 'React, EmailJS, AOS, SCSS',
