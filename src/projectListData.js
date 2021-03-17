@@ -14,7 +14,7 @@ export const projectListData = [
         code: 'https://github.com/melissa2527/cooksmart-test'
     },
     {
-        title: 'Genger Travel Services',
+        title: 'Genger Travel Services (working on)',
         image: './img/genger-travel.jpg',
         tech: 'React, AOS, SCSS',
         site: 'https://genger-travel-site.netlify.app/',

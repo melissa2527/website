@@ -5,8 +5,6 @@ import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 require('dotenv').config();
 
-// import {GMAIL, TEMPLATE, USERS} from '../../config';
-
 export const Contact = () => {
     const [successMsg, setSuccessMsg] = useState(false);
 

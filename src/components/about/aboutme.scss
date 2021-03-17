@@ -2,6 +2,27 @@
     min-height: 90vh;
 }
 
+.video-container {
+    position: relative;
+    top: 0;
+    // height: 50vh;
+
+    // video {
+    //     z-index: 1;
+    //     height: 50vh;
+    // }
+
+    h2 {
+        position: absolute;
+        margin-top: -40%;
+        margin-left: 35%;
+        margin-right: 25%;
+        color: #fff;
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px #232323;
+    }
+}
+
 .aboutme-info {
     text-align: center;
     margin-top: -2rem;
