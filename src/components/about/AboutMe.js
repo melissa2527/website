@@ -28,8 +28,8 @@ export const AboutMe = () => {
                     <h2>Melissa Genger</h2>
                 </div>
             }
-            <AboutSection/>
             <p data-aos='fade-down' className='aboutme-info'>Find me on <a href='https://www.linkedin.com/in/melissa-anne-genger/' target='_blank' rel='noreferrer'>LinkedIn</a></p>
+            <AboutSection/>
         </div>
     )
 }
