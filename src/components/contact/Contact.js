@@ -28,7 +28,7 @@ export const Contact = () => {
   return (
         <div className='contact-container'>
           <h2 data-aos='fade-up'>Contact</h2>
-          <p data-aos='fade-up' className='project-info'>Send me an email via this contact form.</p>
+          <p data-aos='fade-up' className='project-info'>Send me an email directly <a href="mailto:melissa.anne.genger@gmail.com">here</a> or fill out this contact form.</p>
             <form onSubmit={sendEmail}>
                 <div className='form'>
                     <div className='form-group'>
@@ -53,7 +53,11 @@ export const Contact = () => {
                     </div>
                 </div>
             </form>
-            {successMsg ? <div className='success-msg'>Your message has been sent</div> : null }
+            {successMsg ? 
+                <div className='success-msg'>
+                    Your message has been sent <br/>Thank you! 
+                </div> : null 
+            }
         </div>
   );
 }

@@ -77,9 +77,11 @@
 }
 
 .success-msg {
+    width: 330px;
     background: rgb(79, 248, 107);
-    padding: 5px;
+    padding: 12px;
+    margin: 0 auto 2rem auto;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-size: 120%;
 }
