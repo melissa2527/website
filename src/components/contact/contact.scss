@@ -40,6 +40,11 @@
             border-radius: 5px;
         }
 
+        input {
+            border: none;
+            outline: none;
+        }
+
         .form-control:hover, .form-control:focus {
             transform: scale(1.05);
         }
