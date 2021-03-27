@@ -14,7 +14,9 @@ export const ProjectCard = ({project}) => {
     return (
         <div className='card' data-aos='fade-up'>
             <div className='img-container'>
-                <img src={project.image} alt={project.title} className='card-img'/>
+                <a href={project.site} target='_blank' rel='noreferrer'>
+                    <img src={project.image} alt={project.title} className='card-img'/>
+                </a>
             </div>
             <div className='card-info'>
             <h4>{project.title}</h4>
