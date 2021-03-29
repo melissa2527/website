@@ -14,6 +14,13 @@ export const projectListData = [
         code: 'https://github.com/melissa2527/cooksmart-test'
     },
     {
+        title: 'Covid Statistics (working on)',
+        image: './img/covid-stats.jpg',
+        tech: 'Nextjs, REST API, Routing',
+        site: 'https://covid-stats-swart.vercel.app/',
+        code: 'https://github.com/melissa2527/covid-stats'
+    },
+    {
         title: 'Genger Travel Services (working on)',
         image: './img/genger-travel.jpg',
         tech: 'React, AOS, SCSS',
