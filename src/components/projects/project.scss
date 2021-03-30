@@ -13,7 +13,11 @@
     flex-direction: column;
     justify-content: space-around;
 
-    
+    .img-container {
+    width: 23rem;
+    height: 12rem;
+    overflow: hidden;
+}
 
     .card-img {
         width: 23rem;
@@ -114,10 +118,3 @@
     }
 }
 
-// .img-container {
-//     width: 23rem;
-//     height: 12rem;
-//     overflow: hidden;
-//     display: flex;
-//     justify-content: center;
-// }
