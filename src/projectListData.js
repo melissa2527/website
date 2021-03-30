@@ -2,7 +2,7 @@ export const projectListData = [
     {
         title: 'Covid Statistics',
         image: './img/covid-stats.jpg',
-        tech: 'Nextjs, REST API, Routing',
+        tech: 'Nextjs, REST API, Routing, SCSS',
         site: 'https://covid-stats-swart.vercel.app/',
         code: 'https://github.com/melissa2527/covid-stats'
     },
