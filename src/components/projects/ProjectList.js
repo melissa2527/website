@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {projectListData} from '../../projectListData';
 import {ProjectCard} from './ProjectCard';
 import './project.scss';
 
 
 export const ProjectList = () => {
+    useEffect(() => {
+        document.title = 'Melissa Genger - Projects'
+    })
 
     return (
         <div className='page-container'>

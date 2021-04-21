@@ -7,6 +7,7 @@ import { AboutSection } from './about/AboutSection';
 import { Contact } from '../contact/Contact';
 
 export const HomePage = () => {
+
     return (
         <div style={{'overflowX': 'hidden'}}>
             <Hero />

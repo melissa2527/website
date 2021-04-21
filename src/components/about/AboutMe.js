@@ -16,6 +16,7 @@ export const AboutMe = () => {
 
     useEffect(() => {
         showVideo();
+        document.title = 'Melissa Genger - About'
     }, [])
 
     window.addEventListener('resize', showVideo);

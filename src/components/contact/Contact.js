@@ -22,7 +22,8 @@ export const Contact = () => {
   }
 
   useEffect(() => {
-      Aos.init({duration: 1500})
+      Aos.init({duration: 1500});
+      document.title = 'Melissa Genger - Contact'
   }, [])
 
   return (

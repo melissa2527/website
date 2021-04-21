@@ -101,6 +101,13 @@
 @media screen and (orientation: portrait) {
     .card-container {
         margin: 0.3rem;
+        // overflow: hidden;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
     }
 
     .card {
