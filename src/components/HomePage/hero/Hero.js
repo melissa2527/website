@@ -25,6 +25,7 @@ export const Hero = () => {
                         className='btn'
                         buttonStyle='btn--outline'
                         buttonSize='btn--lge'
+                        aria-label='See More button'
                     >
                         <Link to='/projects' id='hero-btn'
                         // style={{'text-decoration': 'none', 'color': 'whitesmoke'}}

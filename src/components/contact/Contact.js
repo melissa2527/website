@@ -50,7 +50,7 @@ export const Contact = () => {
                     </div>
 
                     <div className='form-control' id='contact-btn'>
-                        <input type='Submit' className='button' value='Send message'/>
+                        <input type='Submit' aria-label='Submit button' className='button' value='Send message'/>
                     </div>
                 </div>
             </form>

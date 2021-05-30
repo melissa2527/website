@@ -38,9 +38,9 @@ export const ProjectSection = () => {
                     )
                         })}
              <div className='project--section-btns'>
-                <button onClick={prevPicture} data-aos='fade-left' className='left-arrow'><i className="fas fa-arrow-left"></i></button>
+                <button onClick={prevPicture} data-aos='fade-left' aria-label='Image to left button' className='left-arrow'><i className="fas fa-arrow-left"></i></button>
                 <p>Click the arrows</p>
-                <button onClick={nextPicture} data-aos='fade-right' className='right-arrow'><i className="fas fa-arrow-right"></i></button>
+                <button onClick={nextPicture} data-aos='fade-right' aria-label='Image to right button' className='right-arrow'><i className="fas fa-arrow-right"></i></button>
             </div>
             <div className='project--section'>
                 <img src='./img/computer.png' alt='laptop' className='laptop'/>    

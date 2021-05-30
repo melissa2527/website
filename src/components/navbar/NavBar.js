@@ -51,7 +51,7 @@ export const NavBar = () => {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>
+                    {button && <Button buttonStyle='btn--outline' aria-label='Contact button'>
                         <Link to='/contact' className='contact-btn'>
                             Contact
                         </Link>
